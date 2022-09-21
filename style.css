@@ -1,0 +1,596 @@
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* *** bootstrap_code *** */
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+
+.col-1 {
+    width: calc(100% / 16 *1);
+    padding: 0px 15px;
+}
+
+.col-2 {
+    width: calc(100% / 16 *2);
+    padding: 0px 15px;
+}
+
+.col-3 {
+    width: calc(100% / 16 *3);
+    padding: 0px 15px;
+}
+
+.col-4 {
+    width: calc(100% / 16 * 4);
+    padding: 0px 15px;
+}
+
+.col-5 {
+    width: calc(100% / 16 *5);
+    padding: 0px 15px;
+}
+
+.col-6 {
+    width: calc(100% / 16 *6);
+    padding: 0px 15px;
+}
+
+.col-7 {
+    width: calc(100% / 16 *7);
+    padding: 0px 15px;
+}
+
+.col-8 {
+    width: calc(100% / 16 *8);
+    padding: 0px 15px;
+}
+
+.col-9 {
+    width: calc(100% / 16 *9);
+    padding: 0px 15px;
+}
+
+.col-10 {
+    width: calc(100% / 16 *10);
+    padding: 0px 15px;
+}
+
+.col-11 {
+    width: calc(100% / 16 *11);
+    padding: 0px 15px;
+}
+
+.col-12 {
+    width: calc(100% / 16 *12);
+    padding: 0px 15px;
+}
+
+.col-13 {
+    width: calc(100% / 16 *13);
+    padding: 0px 15px;
+}
+
+.col-14 {
+    width: calc(100% / 16 *14);
+    padding: 0px 15px;
+}
+
+.col-15 {
+    width: calc(100% / 16 *15);
+    padding: 0px 15px;
+}
+
+.col-16 {
+    width: calc(100% / 16 *16);
+    padding: 0px 15px;
+}
+
+
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.text-center{
+    text-align: center;
+}
+/* 
+universal_code */
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    color: rgba(0, 0, 0, 1);
+}
+.lt-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+.btn{
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 25px;
+    border-radius: 30px;
+    background-color: rgba(20, 38, 132, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+/* header_starting */
+header{
+    background-color: rgba(20, 38, 132, 1);
+
+}
+header img{
+    position: relative;
+}
+header .yellow{
+   margin-top: 200px;
+}
+header .white{
+    position: relative;
+    right: 0;
+}
+/* *** navbars_starting *** */
+header .navbars{
+    padding: 43px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+header .navbars ul {
+    display: flex;
+    justify-content: space-between;
+}
+header .navbars ul li a{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+}
+header .navbars i{
+    color: rgba(255, 255, 255, 1);
+}
+header .navbars .num{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* *** header_title_starting *** */
+header .header_title{
+    padding-top: 100px;
+    padding-bottom: 268px;
+    position: absolute;
+    top: 200px;
+}
+header .header_title h1{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 146px;
+    color: rgba(255, 255, 255, 1);
+
+}
+header .header_title h1 span::before{
+    content: '';
+    width: 242px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 1);   
+    display: inline-block;
+    margin-bottom: 18px;
+    margin-right: 15px;
+}
+
+/* section_starting */
+section{
+    width: 100%;
+}
+
+/* *** course_starting *** */
+section .course{
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+section .course .title{
+    margin-bottom: 60px;
+}
+section .course .web{
+    background-color: rgba(20, 38, 132, 1);
+    padding: 60px 0px;
+}
+section .course .web .lt-title{
+    color: rgba(255, 255, 255, 1);
+}
+section .course .web p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+}
+section .course .web .add{
+    padding: 18px 36px 18px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    display: flex;
+}
+section .course .web .add img{
+    margin-left: 5px;
+}
+section .course .sc{
+    padding: 54px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* *** about_us_starting *** */
+section .about_us{
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+section .about_us .title{
+    margin-bottom: 40px;
+}
+section .about_us .p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+}
+section .about_us .all{
+    margin-top: 50px;
+}
+section .about_us .all .fa-telegram{
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left: 43px;
+}
+section .about_us .circle{
+    position: relative;
+}
+section .about_us .circle img{
+    width: 420px;
+    height: 420px;
+    position: absolute;
+}
+section .about_us .circle .blue{
+    top: -50px;
+    right: -25px;
+}
+section .about_us .circle .yellow{
+    top: 50px;
+    left: -15px;
+}
+section .about_us .circle .red{
+    top: 100px;
+    right: -50px;
+}
+
+/* *** static_starting ***  */
+section .static{
+    background-color: rgba(20, 38, 132, 1);
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
+section .static .title{
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+section .static .wrap{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    box-shadow: 0px 15px 35px 0px rgba(132, 132, 132, 0.22);
+
+}
+section .static .box{
+    text-align: center;
+    padding: 90px 60px;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+section .static .box i{
+    font-size: 25px;
+    margin-bottom: 24px;   
+}
+section .static .box p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+/* *** partfolio_starting ***  */
+section .partfolio{
+    padding: 150px 0px;
+}
+section .partfolio .text{
+    margin-bottom: 80px;
+}
+section .partfolio .text p{
+    padding: 19px 25px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+}
+section .partfolio .text .ft{
+    background-color: rgba(20, 38, 132, 1);
+    color: rgba(255, 255, 255, 1);
+}
+section .partfolio .slide .ft{
+    position: relative;
+   
+}
+section .partfolio .slide .ft .bac{
+    filter: opacity(3) ;
+    border-radius: 40px;
+    height: 491px;
+}
+section .partfolio .slide .logo{
+    position: absolute;
+    top: 200px;
+    right: 30%;
+    padding: 20px 13px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+section .partfolio .slide  p{
+    position: absolute;
+    top: 350px;
+    left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+
+}
+section .partfolio .slide .arr{
+    padding: 19px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 350px;
+    right: 100px;
+}
+section .partfolio .slide .ft:nth-of-type(1) .logo{
+    right: 40%;
+}
+section .partfolio .slide .btn{
+    text-align: center;
+}
+
+/* *** muamo_starting *** */
+section .muamo{
+    padding: 150px 0px;
+}
+section .muamo .ft{
+    position: relative;
+}
+section .muamo .ft img{
+    width: 410px;
+    height: 410px;
+}
+section .muamo .text{
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+section .muamo .sc{
+    position: relative;
+}
+section .muamo .sc img{
+    width: 756px;
+    height: 756px;
+}
+section .muamo .sc form{
+    padding: 40px 40px;
+    background: linear-gradient(281deg, #DADCFF -9.21%, #6384F8 119.22%);
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    left: 164px;
+}
+section .muamo .sc form h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+section .muamo .sc form input{
+    display: block;
+    padding: 20px 0px;
+    padding-left: 24px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;   
+}
+section .muamo .sc form input:nth-of-type(1){
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+section .muamo .sc form input:nth-of-type(2){
+    margin-bottom: 44px;
+}
+section .muamo .sc form .btn{
+    border-radius: 10px;
+}
+
+/* *** question_starting *** */
+section .muamo .questions{
+    padding: 150px 0px;
+    position: relative;
+}
+section .muamo .questions .title{
+    margin-bottom: 50px;
+}
+section .muamo .questions .box h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 33px 0px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+section .muamo .questions .pink{
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+section .muamo .questions .green{
+    position: absolute;
+}
+
+/* *** jamoa_starting *** */
+section .muamo .jamoa{
+    position: relative;
+}
+section .muamo .jamoa .img{
+    position: relative;
+    padding: 150px 0px;
+    background: url('./img/black\ circle.png') no-repeat top;
+}
+
+section .muamo .jamoa .img .women{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+section .muamo .jamoa .img .yellow{
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+section .muamo .jamoa .texts {
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+section .muamo .jamoa .texts .cyellow{
+    width: 346px;
+    height: 346px;
+    position: absolute;
+    right: 0;
+    top: -150px;
+}
+section .muamo .jamoa .texts .title::before{
+    content:'';
+    width: 100%;
+    margin-bottom: 50px;
+    height: 3px;
+    background-color: #000;
+    display: block;
+}
+section .muamo .jamoa .texts .title{
+    margin-bottom: 30px;
+}
+
+/* main_starting */
+main{
+    width: 100%;
+    text-align: center;
+}
+main .title{
+    margin-bottom: 24px;
+}
+main p{
+    margin-bottom: 60px;
+}
+main .slide{
+    background: linear-gradient(90deg, rgba(121, 148, 249, 0.47) -13.32%, rgba(207, 211, 255, 0.52) 105.07%);
+    box-shadow: 0px 15px 230px rgba(213, 213, 213, 0.25);
+    border-radius: 30px;
+    
+}
+main .fa-angle-left ,.fa-angle-right{
+    padding: 23px;
+    border-radius: 50%;
+    background-color: rgba(20, 38, 132, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* footer_starting */
+footer{
+    padding-top: 192px;
+    padding-bottom: 72px;
+}
+footer ul li a{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 1);
+}
+footer .sc{
+    margin-top: 63px;
+}
+footer .sc .map .wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 60px 19px 22px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+footer .sc .map  .btn{
+    border-radius: unset;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
